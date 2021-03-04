@@ -1,7 +1,26 @@
+@import 'colors';
+
 .container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
     width: 100%;
+    padding-top: 8px;
     display: flex;
     justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+.iconWrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+}
+
+.icon{
+
 }
 
 .largeLinks{
