@@ -2,14 +2,14 @@
 
 .bgImage {
 	height: 100vh;
-    width: 100vw;
-    z-index: -1;
+	width: 100vw;
+	z-index: -1;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: fixed; /* Sit on top of the page content */
 	width: 100vw; /* Full width (cover the whole page) */
 	height: 100vh; /* Full height (cover the whole page) */
@@ -17,23 +17,55 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ); /* Black background with opacity */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)); /* Black background with opacity */
 	z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
+
+	.icon{
+		position: absolute;
+		bottom: 15%;
+		left: 50%;
+		font-size: clamp(24px,6vw,40px);
+		color: white;
+		opacity: 0;
+	}
 }
 
-.textWrapper{
-    color: white;
-    width: 60vw;
+.textWrapper {
+	color: white;
+	width: 60vw;
 	margin: 0 auto;
-	h1{
-		font-size: clamp(40px, 9vw, 80px);
+	h1 {
+		font-size: clamp(40px, 8vw, 80px);
 		font-family: $font-header;
 		line-height: 110%;
-		margin: 28px 0;
+		margin: 20px 0;
+		margin-bottom: 32px;
+		letter-spacing: 2px;
+		opacity: 0;
 	}
-	p{
-		font-size: clamp(11px,3vw,24px);
+	p {
+		font-size: clamp(11px, 3vw, 24px);
 		font-family: $font-body;
 		margin-bottom: 0;
+		letter-spacing: 2px;
+		opacity: 0;
+	}
+	button {
+		margin-top: 32px;
+		background: none;
+		color: inherit;
+		border: 1px solid white;
+		border-radius: 5px;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
+		padding: 16px;
+		font-family: $font-body;
+		opacity: 0;
+		transition: background-color 0.7s;
+		&:hover{
+			background-color: rgba(255, 255, 255, 0.208);
+		}
 	}
 }

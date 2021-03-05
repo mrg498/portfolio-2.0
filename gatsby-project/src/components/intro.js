@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-import * as introStyles from "../styles/intro.module.scss"
+import { HiOutlineChevronDown } from "@react-icons/all-files/Hi/HiOutlineChevronDown";
+
+import Reveal from "react-reveal/Reveal";
+import * as introStyles from "../styles/intro.module.scss";
 
 export default function intro() {
 	return (
@@ -18,10 +21,20 @@ export default function intro() {
 			/>
 			<div className={introStyles.container}>
 				<div className={introStyles.textWrapper}>
-					<p>Hi, I'm</p>
-					<h1>Miles Grossenbacher</h1>
-					<p>A Web Developer, Software Engineer, and Music Technologist</p>
+					<p className="fadeInUp" style={{ animationDelay: `0.7s` }}>
+						Hi, I'm
+					</p>
+					<h1 className="fadeInUp" style={{ animationDelay: `0.9s` }}>
+						Miles Grossenbacher
+					</h1>
+					<p className="fadeInUp" style={{ animationDelay: `1.1s` }}>
+						A Web Developer, Software Engineer, and Music Technologist
+					</p>
+					<button className="fadeInUp" style={{ animationDelay: `1.3s` }}>
+						Message Me
+					</button>
 				</div>
+                <HiOutlineChevronDown  className={`${introStyles.icon} fadeIn`} style={{animationDelay: `2.5s`}}/>
 			</div>
 		</div>
 	);
