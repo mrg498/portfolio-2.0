@@ -27,6 +27,7 @@
 		font-size: clamp(24px,6vw,40px);
 		color: white;
 		opacity: 0;
+		cursor: pointer;
 	}
 }
 
@@ -62,6 +63,7 @@
 		outline: inherit;
 		padding: 16px;
 		font-family: $font-body;
+		font-size: clamp(11px, 2vw, 16px);
 		opacity: 0;
 		transition: background-color 0.7s;
 		&:hover{
