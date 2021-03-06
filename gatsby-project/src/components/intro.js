@@ -34,7 +34,9 @@ export default function intro() {
 						Message Me
 					</button>
 				</div>
-                <HiOutlineChevronDown  className={`${introStyles.icon} fadeIn`} style={{animationDelay: `2.5s`}}/>
+				<div className={introStyles.iconWrapper}>
+                	<HiOutlineChevronDown  className={`${introStyles.icon} fadeIn`} style={{animationDelay: `2.5s`}}/>
+				</div>
 			</div>
 		</div>
 	);
