@@ -10,7 +10,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: fixed; /* Sit on top of the page content */
+	position: absolute; /* Sit on top of the page content */
 	width: 100vw; /* Full width (cover the whole page) */
 	height: 100vh; /* Full height (cover the whole page) */
 	top: 0;
@@ -36,7 +36,7 @@
 	width: 60vw;
 	margin: 0 auto;
 	h1 {
-		font-size: clamp(40px, 8vw, 80px);
+		font-size: clamp(20px, 7vw, 80px);
 		font-family: $font-header;
 		line-height: 110%;
 		margin: 20px 0;
