@@ -7,23 +7,25 @@
 	left: 0;
 	z-index: 2;
 	width: 100%;
-	padding-top: 16px;
 	background-color: transparent;
 	color: white;
 	font-family: $font-body;
 	opacity: 0;
 
 	nav {
+		// padding-top: 16px;
+		background-color: #354c5c;
 		display: flex;
 		width: inherit;
 		justify-content: space-between;
+		padding: 0 16px;
 	}
 }
 
 .iconWrapper {
 	display: flex;
 	align-items: center;
-	margin-left: 48px;
+	padding: 16px 0;
 }
 
 .desktop {
@@ -32,7 +34,6 @@
 		display: flex;
 		padding: 24px 0;
 		margin: 0;
-		margin-right: 56px;
 		list-style: none;
 		font-size: clamp(11px, 3vw, 20px);
 	}
@@ -44,12 +45,10 @@
 // hamburger
 .hamburger {
 	z-index: 1001;
-	margin-right: 32px;
-	position: relative;
-	height: 44px;
-	width: 44px;
 	background-color: transparent;
 	cursor: pointer;
+	padding: 16px;
+	padding-right: 0;
 
 	.hamburgerLine {
 		width: 44px;
@@ -79,12 +78,12 @@
 		text-align: center;
 	}
 
-	.smallLinks{
+	.smallLinks {
 		font-size: clamp(16px, 3vw, 20px);
 	}
 
-	.smallLink{
-		margin: 16px 0;
+	.smallLink {
+		margin: 20px 0;
 	}
 
 	li:first-of-type {
@@ -97,11 +96,13 @@
 	}
 }
 
-a{
+a {
 	color: white;
 	text-decoration: none;
-	&:hover{
-		color: rgb(201, 201, 201);
+	border-bottom: 2px solid transparent;
+	transition: border-bottom-color 0.7s;
+	&:hover {
+		border-bottom-color: white;
 	}
 }
 
@@ -114,17 +115,24 @@ a{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+	.iconWrapper {
+		display: flex;
+		align-items: center;
+	}
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 	.container {
-		padding-top: 8px;
+		nav{
+			padding: 0 48px;
+		}
 	}
 	.desktop {
 		display: block;
 	}
 	.hamburger {
+		margin-right: 48px;
 		display: none;
 	}
 }

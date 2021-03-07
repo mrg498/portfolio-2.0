@@ -31,7 +31,7 @@ export default function intro() {
 					<p className="fadeInUp" style={{ animationDelay: `1.1s` }}>
 						A Web Developer, Software Engineer, and Music Technologist
 					</p>
-					<button className="fadeInUp" style={{ animationDelay: `1.3s` }}>
+					<button onClick={() => scrollTo('#contact')} className="fadeInUp" style={{ animationDelay: `1.3s` }}>
 						Message Me
 					</button>
 				</div>

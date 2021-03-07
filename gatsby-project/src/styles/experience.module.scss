@@ -1,4 +1,50 @@
+@import 'fonts';
+
 .container{
-    background-color: orange;
-    min-height: 100vh;
+    background-color: white;
+}
+
+.title {
+	font-family: $font-header;
+	font-size: clamp(28px, 5vw, 56px);
+	letter-spacing: 2px;
+    margin: 0;
+    padding-top: 112px;
+	padding-bottom: 32px;
+	color: black;
+	text-align: center;
+	span {
+		border-bottom: 2px solid rgb(200, 200, 200);
+	}
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .title{
+        padding-top: 200px;
+    }
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+
 }

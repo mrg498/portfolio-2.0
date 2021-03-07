@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-
 import * as headerStyles from "../styles/header.module.scss";
 
 const Header = () => {
@@ -70,7 +69,14 @@ const Header = () => {
 					<div className={headerStyles.hamburgerLine} />
 				</div>
 			</nav>
-			<div ref={content} style={{ maxHeight: `${setHeight}` }} className={headerStyles.accordian}>
+			<div
+				ref={content}
+				style={{ maxHeight: `${setHeight}` }}
+				className={headerStyles.accordian}
+				onClick={() => {
+					toggleAccordion();
+				}}
+			>
 				<ul className={`${headerStyles.smallLinks}`}>
 					<li className={headerStyles.smallLink}>
 						<Link to="/">Home</Link>
