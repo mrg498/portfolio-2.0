@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
+import scrollTo from 'gatsby-plugin-smoothscroll';
 import { HiOutlineChevronDown } from "@react-icons/all-files/Hi/HiOutlineChevronDown";
 
 import Reveal from "react-reveal/Reveal";
@@ -9,7 +10,7 @@ import * as introStyles from "../styles/intro.module.scss";
 
 export default function intro() {
 	return (
-		<div>
+		<div id="intro">
 			<StaticImage
 				src="../images/jake-hills-mI02K_LxlfU-unsplash.jpg"
 				alt="background image"
@@ -34,8 +35,8 @@ export default function intro() {
 						Message Me
 					</button>
 				</div>
-				<div className={introStyles.iconWrapper}>
-                	<HiOutlineChevronDown  className={`${introStyles.icon} fadeIn`} style={{animationDelay: `2.5s`}}/>
+				<div className={introStyles.iconWrapper} onClick={() => scrollTo('#about')}>
+                	<HiOutlineChevronDown  className={`${introStyles.icon} fadeIn`} style={{animationDelay: `1.7s`}}/>
 				</div>
 			</div>
 		</div>

@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
+
 import * as headerStyles from "../styles/header.module.scss";
 
 const Header = () => {
@@ -9,12 +10,6 @@ const Header = () => {
 	const [ accordianClass, setAccordianClass ] = useState("");
 	const [ setHeight, setHeightState ] = useState("0px");
 	const content = useRef(null);
-
-	const toggleOverlay = () => {
-		setToggled((toggled) => {
-			return !toggled;
-		});
-	};
 
 	function toggleAccordion() {
 		if (accordianClass === "") {
@@ -31,7 +26,7 @@ const Header = () => {
 	}
 
 	return (
-		<header className={`${headerStyles.container} fadeIn`} style={{ animationDelay: `2.5s` }}>
+		<header className={`${headerStyles.container} fadeIn`} style={{ animationDelay: `1.7s` }}>
 			<nav>
 				<div className={headerStyles.iconWrapper}>
 					<StaticImage
@@ -45,11 +40,21 @@ const Header = () => {
 				</div>
 				<div className={headerStyles.desktop}>
 					<ul className={`${headerStyles.largeLinks}`}>
-						<li className={headerStyles.largeLink}>Home</li>
-						<li className={headerStyles.largeLink}>About</li>
-						<li className={headerStyles.largeLink}>Experience</li>
-						<li className={headerStyles.largeLink}>Projects</li>
-						<li className={headerStyles.largeLink}>Contact</li>
+						<li className={headerStyles.largeLink}>
+							<Link to="/">Home</Link>
+						</li>
+						<li className={headerStyles.largeLink}>
+							<Link to="/#about">About</Link>
+						</li>
+						<li className={headerStyles.largeLink}>
+							<Link to="/#experience">Experience</Link>
+						</li>
+						<li className={headerStyles.largeLink}>
+							<Link to="/#projects">Projects</Link>
+						</li>
+						<li className={headerStyles.largeLink}>
+							<Link to="/#contact">Contact</Link>
+						</li>
 					</ul>
 				</div>
 				<div
@@ -66,12 +71,22 @@ const Header = () => {
 				</div>
 			</nav>
 			<div ref={content} style={{ maxHeight: `${setHeight}` }} className={headerStyles.accordian}>
-				<ul className={`${headerStyles.largeLinks}`}>
-					<li className={headerStyles.largeLink}>Home</li>
-					<li className={headerStyles.largeLink}>About</li>
-					<li className={headerStyles.largeLink}>Experience</li>
-					<li className={headerStyles.largeLink}>Projects</li>
-					<li className={headerStyles.largeLink}>Contact</li>
+				<ul className={`${headerStyles.smallLinks}`}>
+					<li className={headerStyles.smallLink}>
+						<Link to="/">Home</Link>
+					</li>
+					<li className={headerStyles.smallLink}>
+						<Link to="/#about">About</Link>
+					</li>
+					<li className={headerStyles.smallLink}>
+						<Link to="/#experience">Experience</Link>
+					</li>
+					<li className={headerStyles.smallLink}>
+						<Link to="/#projects">Projects</Link>
+					</li>
+					<li className={headerStyles.smallLink}>
+						<Link to="/#contact">Contact</Link>
+					</li>
 				</ul>
 			</div>
 		</header>

@@ -13,11 +13,11 @@ import Contact from "../components/contact"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Intro id="intro"/>
-    <About id="about"/>
-    <Experience id="experience"/>
-    <Projects id="projects"/>
-    <Contact id="contact"/>
+    <Intro/>
+    <About/>
+    <Experience/>
+    <Projects/>
+    <Contact/>
   </Layout>
 )
 

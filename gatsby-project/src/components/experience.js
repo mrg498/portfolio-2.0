@@ -4,7 +4,7 @@ import * as expStyles from "../styles/experience.module.scss";
 
 export default function experience() {
     return (
-        <div className={expStyles.container}>
+        <div id="experience" className={expStyles.container}>
             
         </div>
     )
