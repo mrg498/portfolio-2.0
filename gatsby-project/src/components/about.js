@@ -37,9 +37,10 @@ export default function about() {
 							<span className={aboutStyles.skill}>gatsby</span>
 						</div>
 						<div className={aboutStyles.skillGroup}>
-							<span className={aboutStyles.skill}>node</span>
-							<span className={aboutStyles.skill}>SQL</span>
+							<span className={aboutStyles.skill}>node/express</span>
+							<span className={aboutStyles.skill}>MySQL</span>
 							<span className={aboutStyles.skill}>MongoDB</span>
+							<span className={aboutStyles.skill}>REST API</span>
 							<span className={aboutStyles.skill}>graphql</span>
 							<span className={aboutStyles.skill}>MVC design pattern</span>
 							<span className={aboutStyles.skill}>python/flask</span>
@@ -47,7 +48,8 @@ export default function about() {
 						</div>
 						<div className={aboutStyles.skillGroup}>
 							<span className={aboutStyles.skill}>git/github</span>
-							<span className={aboutStyles.skill}>vs code</span>
+							<span className={aboutStyles.skill}>java/c++/swift</span>
+							<span className={aboutStyles.skill}>VS Code</span>
 						</div>
 					</div>
 				</div>
