@@ -74,32 +74,31 @@ export default function projects() {
 				<div className={projectStyles.row}>
 					<div className={projectStyles.post}>
 						<h3>
-							<span>Chandrika Tandon Personal Site</span>
+							<span>Alex Carr Personal Site</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							Personal professional website for Alex Carr. Design guided by client aesthetics. Integrated
+							with Netlify CMS for client content updates.
 						</p>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<a className={projectStyles.btn}>Code</a>
-								<a className={projectStyles.btn}>Live</a>
-								<a className={projectStyles.btn}>Demo</a>
+								<a href="https://alexcarr.art/" className={projectStyles.btn}>
+									Live
+								</a>
+								<a
+									href="https://github.com/alexcarrengler/portfolio-alex-carr"
+									className={projectStyles.btn}
+								>
+									Code
+								</a>
 							</div>
 						</div>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<span className={projectStyles.skill}>html5/css3</span>
-								<span className={projectStyles.skill}>javascript</span>
 								<span className={projectStyles.skill}>react</span>
-								<span className={projectStyles.skill}>jQuery</span>
+								<span className={projectStyles.skill}>gatsby</span>
 								<span className={projectStyles.skill}>sass</span>
-								<span className={projectStyles.skill}>CRA/gatsby</span>
+								<span className={projectStyles.skill}>react hooks</span>
 							</div>
 						</div>
 					</div>
@@ -108,29 +107,78 @@ export default function projects() {
 							<span>Haven</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							A personal project I am developing that allows creators to upload written and spoken word
+							fiction for purchase.
 						</p>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<a className={projectStyles.btn}>Code</a>
-								<a className={projectStyles.btn}>Live</a>
-								<a className={projectStyles.btn}>Demo</a>
+								<a href="https://github.com/mrg498/haven" className={projectStyles.btn}>
+									Code
+								</a>
 							</div>
 						</div>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<span className={projectStyles.skill}>html5/css3</span>
+								<span className={projectStyles.skill}>node</span>
 								<span className={projectStyles.skill}>javascript</span>
+								<span className={projectStyles.skill}>express</span>
+								<span className={projectStyles.skill}>MongoDB</span>
+								<span className={projectStyles.skill}>jest</span>
+								<span className={projectStyles.skill}>html/css</span>
+							</div>
+						</div>
+					</div>
+					<div className={projectStyles.post}>
+						<h3>
+							<span>Chloe Ting Workout Builder</span>
+						</h3>
+						<p>
+							A personal project I built to pull Chloe Ting exercise videos from youtube and build unique
+							workouts. Interfaces with the youtube API.
+						</p>
+						<div className={projectStyles.sectionWrapper}>
+							<div className={projectStyles.sectionGroup}>
+								<a href="https://mrg498.github.io/chloe-ting-react-app/" className={projectStyles.btn}>
+									Live
+								</a>
+								<a href="https://github.com/mrg498/chloe-ting-react-app" className={projectStyles.btn}>
+									Code
+								</a>
+							</div>
+						</div>
+						<div className={projectStyles.sectionWrapper}>
+							<div className={projectStyles.sectionGroup}>
 								<span className={projectStyles.skill}>react</span>
-								<span className={projectStyles.skill}>jQuery</span>
-								<span className={projectStyles.skill}>sass</span>
-								<span className={projectStyles.skill}>CRA/gatsby</span>
+								<span className={projectStyles.skill}>Youtube Data API</span>
+							</div>
+						</div>
+					</div>
+					<div className={projectStyles.post}>
+						<h3>
+							<span>Splash Kid</span>
+						</h3>
+						<p>
+							Splash Kid is a children’s video game for iOS. Developed for my iOS programming course at
+							NYU.
+						</p>
+						<div className={projectStyles.sectionWrapper}>
+							<div className={projectStyles.sectionGroup}>
+								<a href="https://github.com/Splash-Kid-iOS/splash-kid" className={projectStyles.btn}>
+									Code
+								</a>
+								<a href="https://www.youtube.com/watch?v=9wwwd5udPZE&t" className={projectStyles.btn}>
+									Demo
+								</a>
+							</div>
+						</div>
+						<div className={projectStyles.sectionWrapper}>
+							<div className={projectStyles.sectionGroup}>
+								<span className={projectStyles.skill}>node</span>
+								<span className={projectStyles.skill}>javascript</span>
+								<span className={projectStyles.skill}>express</span>
+								<span className={projectStyles.skill}>MongoDB</span>
+								<span className={projectStyles.skill}>jest</span>
+								<span className={projectStyles.skill}>html/css</span>
 							</div>
 						</div>
 					</div>

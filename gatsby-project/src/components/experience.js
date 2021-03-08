@@ -19,8 +19,8 @@ export default function experience() {
 							Analog collective is a spotify-playlist curating platform where independent curators can
 							monetize their spotify following by charging a fee to review and place songs submitted by
 							artists to their playlists. Built alongside two other developers, I designed and implemented
-							the UI, as well as assisted with some backend funcitonality. I now handle discovered
-							bugs and site updates as requested by the client.
+							the UI, as well as assisted with some backend funcitonality. I now handle discovered bugs
+							and site updates as requested by the client.
 						</p>
 					</div>
 					<div className={expStyles.post}>
@@ -43,7 +43,8 @@ export default function experience() {
 							I was hired by Miss Tandon’s personal team to work alongside another developer and implement
 							features for her personal website. I implemented the gallery and music sections, and handled
 							image optimizations, responsiveness for mobile, and transitioning the project from
-							create-react-app to gatsby.
+							create-react-app to gatsby. Each section is dynamic and designed to be used alongside a CMS.
+							Project currently ongoing.
 						</p>
 					</div>
 					<div className={expStyles.post}>
