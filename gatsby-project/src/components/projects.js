@@ -19,17 +19,20 @@ export default function projects() {
 							<span>Analog Collective Web App</span>
 						</h3>
 						<p>
-							Analog collective is a spotify-playlist curating platform where independent curators can
-							monetize their spotify following by charging a fee to review and place songs submitted by
-							artists to their playlists. Built alongside two other developers, I designed and
-							implemented the UI, as well as assisted with some python/flask functionality. I now handle
-							discovered bugs and site updates based on requests from the client for a few hours a week.
+							A web app that interfaces with the Spotify API. Allows independent music curators to
+							advertise their playlists and musicians to submit to playlists for track placement. I served
+							as the main front end developer, but I was also involved in writing parts of the backend,
+							and now I handle front end and back end updates to the site as needed. Over 6,000 users
+							signed up and ~$2000 monthly revenue generated.
 						</p>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<a className={projectStyles.btn}>Code</a>
-								<a className={projectStyles.btn}>Live</a>
-								<a className={projectStyles.btn}>Demo</a>
+								<a href="https://analogcollective.com/" className={projectStyles.btn}>
+									Live
+								</a>
+								<a href="https://www.youtube.com/watch?v=3F7orkRbcC0" className={projectStyles.btn}>
+									Demo
+								</a>
 							</div>
 						</div>
 						<div className={projectStyles.sectionWrapper}>
@@ -44,32 +47,26 @@ export default function projects() {
 					</div>
 					<div className={projectStyles.post}>
 						<h3>
-							<span>Handoff Tech Retailer Portal</span>
+							<span>Handoff Retailer Portal</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							An internal tool for partnered Handoff retailers to manage inventory, track transactions,
+							and handle customer orders. I was solely responsible for implementing the customer order
+							handling and order history components.
 						</p>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<a className={projectStyles.btn}>Code</a>
-								<a className={projectStyles.btn}>Live</a>
-								<a className={projectStyles.btn}>Demo</a>
+								<a href="https://www.youtube.com/watch?v=b4ZVpL89uEg" className={projectStyles.btn}>
+									Demo
+								</a>
 							</div>
 						</div>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<span className={projectStyles.skill}>html5/css3</span>
-								<span className={projectStyles.skill}>javascript</span>
-								<span className={projectStyles.skill}>jQuery</span>
-								<span className={projectStyles.skill}>python/flask</span>
+								<span className={projectStyles.skill}>java</span>
+								<span className={projectStyles.skill}>Spring MVC Framework</span>
 								<span className={projectStyles.skill}>MySQL</span>
-								<span className={projectStyles.skill}>Linux/Ubuntu/nginx</span>
+								<span className={projectStyles.skill}>Thymeleaf template engine</span>
 							</div>
 						</div>
 					</div>
