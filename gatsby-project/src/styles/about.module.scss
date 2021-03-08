@@ -6,7 +6,7 @@
 
 .title {
 	font-family: $font-header;
-	font-size: clamp(28px, 5vw, 56px);
+	font-size: clamp(36px, 5vw, 56px);
 	letter-spacing: 2px;
 	margin: 0;
 	padding-top: 112px;
@@ -19,6 +19,8 @@
 }
 
 .wrapper {
+	font-size: clamp(12px, 2vw, 14px);
+	font-family: $font-body;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -27,7 +29,7 @@
 		width: 90%;
 		h3 {
 			text-align: left;
-			font-size: clamp(20px, 3vw, 30px);
+			font-size: clamp(20px, 3vw, 24px);
 			span {
 				border-bottom: 2px solid rgb(200, 200, 200);
 			}
@@ -63,11 +65,6 @@
 	.wrapper {
 		.section {
 			width: 60%;
-			h3 {
-				span {
-					border-bottom: 2px solid rgb(200, 200, 200);
-				}
-			}
 		}
 	}
 }
@@ -84,9 +81,6 @@
 			max-width: 560px;
 			h3 {
 				text-align: center;
-				span {
-					border-bottom: 2px solid rgb(200, 200, 200);
-				}
 			}
 		}
 	}
