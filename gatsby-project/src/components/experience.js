@@ -7,6 +7,7 @@ export default function experience() {
 		<div id="experience" className={expStyles.container}>
 			<h2 className={expStyles.title}>
 				<span>Experience</span>
+				<h5 className={expStyles.subTitle}>Professional and Educational</h5>
 			</h2>
 			<div className={expStyles.postContainer}>
 				<div className={expStyles.row}>
@@ -15,13 +16,11 @@ export default function experience() {
 							<span>Analog Collective</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							Analog collective is a spotify-playlist curating platform where independent curators can
+							monetize their spotify following by charging a fee to review and place songs submitted by
+							artists to their playlists. Built alongside two other developers, I designed and implemented
+							the UI, as well as assisted with some backend funcitonality. I now handle discovered
+							bugs and site updates as requested by the client.
 						</p>
 					</div>
 					<div className={expStyles.post}>
@@ -29,13 +28,9 @@ export default function experience() {
 							<span>Handoff Tech</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							Handoff is an alcohol delivery platform based out of Colorado. I worked with the lead
+							backend engineer to implement a retailer portal for independent liquor stores to mange their
+							inventory and process customer orders on the Handoff platform.
 						</p>
 					</div>
 				</div>
@@ -45,13 +40,10 @@ export default function experience() {
 							<span>Chandrika Tandon</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							I was hired by Miss Tandon’s personal team to work alongside another developer and implement
+							features for her personal website. I implemented the gallery and music sections, and handled
+							image optimizations, responsiveness for mobile, and transitioning the project from
+							create-react-app to gatsby.
 						</p>
 					</div>
 					<div className={expStyles.post}>
@@ -59,13 +51,10 @@ export default function experience() {
 							<span>NYU Computer Science</span>
 						</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-							dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-							ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor
-							aliquam nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque
-							in. Non nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et
-							magnis dis parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+							I received a double major in Computer Science and Music Technology from New York University.
+							I had a focus on software development and digital signal processing and completed courses in
+							Applied Internet Technology, Agile Software Development, Computer Graphics, Audio
+							programming, and iOS development.
 						</p>
 					</div>
 				</div>

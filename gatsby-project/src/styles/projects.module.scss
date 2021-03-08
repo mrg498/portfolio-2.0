@@ -1,4 +1,126 @@
-.container{
-    background-color: green;
-    min-height: 100vh;
+@import 'fonts';
+@import 'colors';
+
+.container {
+	background-color: white;
+}
+
+.title {
+	font-family: $font-header;
+	font-size: clamp(36px, 5vw, 56px);
+	letter-spacing: 2px;
+	margin: 0;
+	padding-top: 112px;
+	padding-bottom: 32px;
+	color: $color1;
+	text-align: center;
+	span {
+		border-bottom: 2px solid rgb(200, 200, 200);
+	}
+	.subTitle {
+		font-size: clamp(16px, 2vw, 24px);
+		color: $color1;
+		letter-spacing: normal;
+		a {
+			color: inherit;
+			border-bottom: 2px solid $color1;
+		}
+	}
+}
+
+.postContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: clamp(12px, 2vw, 14px);
+	font-family: $font-body;
+}
+.post {
+	margin: 0 auto;
+	width: 90%;
+	padding: 8px;
+	h3 {
+		color: $color1;
+		text-align: left;
+		font-size: clamp(20px, 3vw, 24px);
+		span {
+			border-bottom: 2px solid rgb(200, 200, 200);
+		}
+	}
+}
+
+.sectionWrapper {
+	.sectionGroup {
+		margin-bottom: 16px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.skill {
+		padding: 8px;
+		border: 2px solid black;
+		margin: 4px;
+	}
+	.btn {
+		font-size: clamp(12px, 2vw, 14px);
+		font-family: $font-body;
+		color: black;
+		padding: 8px;
+		border: 2px solid $color1;
+		margin: 4px;
+		border-radius: 10px;
+		background-color: white;
+		cursor: pointer;
+		transition: all 0.7s;
+		&:hover {
+			background-color: $color1;
+			color: white;
+		}
+	}
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.post {
+		width: 60%;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.title {
+		padding-top: 200px;
+	}
+	.postContainer{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		.row{
+			width: 80%;
+			max-width: 1100px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			.post{
+				width: 45%;
+				h3{
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
 }
