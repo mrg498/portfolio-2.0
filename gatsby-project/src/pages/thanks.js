@@ -1,13 +1,14 @@
-import React from "react";
-import { Link } from "gatsby-link";
-import Layout from "../components/layout";
+import * as React from "react"
 
-export default function thanks() {
-	return (
-		<Layout>
-			<h1>Thank you!</h1>
-			<p>This is a custom thank you page for form submissions</p>
-            <Link to="/">Back to site</Link>
-		</Layout>
-	);
-}
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const Thanks = () => (
+  <Layout>
+    <SEO title="Form Submission" />
+    <h1>Thanks!</h1>
+    <p>Form submission successful</p>
+  </Layout>
+)
+
+export default Thanks
