@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-import scrollTo from 'gatsby-plugin-smoothscroll';
+import scrollTo from "gatsby-plugin-smoothscroll";
 import { HiOutlineChevronDown } from "@react-icons/all-files/hi/HiOutlineChevronDown";
 
 import Reveal from "react-reveal/Reveal";
@@ -31,12 +31,19 @@ export default function intro() {
 					<p className="fadeInUp" style={{ animationDelay: `1.1s` }}>
 						A Web Developer, Software Engineer, and Music Technologist
 					</p>
-					<button onClick={() => scrollTo('#contact')} className="fadeInUp" style={{ animationDelay: `1.3s` }}>
+					<button
+						onClick={() => scrollTo("#contact")}
+						className="fadeInUp"
+						style={{ animationDelay: `1.3s` }}
+					>
 						Message Me
 					</button>
-				</div>
-				<div className={introStyles.iconWrapper} onClick={() => scrollTo('#about')}>
-                	<HiOutlineChevronDown  className={`${introStyles.icon} fadeIn`} style={{animationDelay: `1.7s`}}/>
+					<div className={introStyles.iconWrapper} onClick={() => scrollTo("#about")}>
+						<HiOutlineChevronDown
+							className={`${introStyles.icon} fadeIn`}
+							style={{ animationDelay: `1.7s` }}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
