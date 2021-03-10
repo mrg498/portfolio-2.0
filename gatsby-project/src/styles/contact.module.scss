@@ -45,7 +45,7 @@
             font-size: clamp(12px, 2vw, 24px);
 			.formText {
                 font-family: $font-body;
-                font-size: clamp(12px, 1.5vw, 20px);
+                font-size: clamp(12px, 1.5vw, 17px);
                 margin-top: 8px;
                 padding: 4px 3px;
                 width: 100%;
@@ -107,7 +107,12 @@
 @media (min-width: 992px) {
 	.title {
 		padding-top: 200px;
-	}
+    }
+    .form{
+        .fieldWrapper{
+            width: 500px;
+        }
+    }
 }
 
 // X-Large devices (large desktops, 1200px and up)
