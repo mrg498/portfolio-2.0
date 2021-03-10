@@ -29,7 +29,7 @@ export default function intro() {
 						Miles Grossenbacher
 					</h1>
 					<p className="fadeInUp" style={{ animationDelay: `1.1s` }}>
-						A Web Developer, Software Engineer, and Music Technologist
+						Web Developer, Software Engineer, and Music Technologist
 					</p>
 					<button
 						onClick={() => scrollTo("#contact")}
