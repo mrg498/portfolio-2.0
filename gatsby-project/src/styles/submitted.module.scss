@@ -1,0 +1,58 @@
+@import 'fonts';
+@import 'colors';
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -20%;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-family: $font-header;
+	font-size: clamp(36px, 5vw, 56px);
+	letter-spacing: 2px;
+	margin: 0;
+	padding-top: 112px;
+	padding-bottom: 0px;
+	color: $color1;
+	text-align: center;
+	span {
+		border-bottom: 2px solid $color2;
+	}
+	.subTitle {
+		font-size: clamp(16px, 2vw, 24px);
+		color: $color1;
+		letter-spacing: normal;
+	}
+}
+
+.btn {
+	align-self: center;
+	background-color: transparent;
+	border: 2px solid $color1 !important;
+	border-radius: 8px;
+	color: $color1;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 70px;
+	padding: 8px 16px;
+	cursor: pointer;
+
+	font-family: $font-header;
+	font-size: clamp(16px, 3vw, 32px);
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+	&:hover {
+		color: white;
+		background-color: $color1;
+	}
+}

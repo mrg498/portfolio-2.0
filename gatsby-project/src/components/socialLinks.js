@@ -1,5 +1,9 @@
 import React from 'react';
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
+import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube";
+
 
 import * as socialLinksStyles from "../styles/socialLinks.module.scss";
 
@@ -8,16 +12,16 @@ export default function socialLinks() {
         <div className={socialLinksStyles.container}> 
             <ul className={socialLinksStyles.wrapper}>
                 <li>
-                    <FaBeer className={socialLinksStyles.icon}/>
+                    <FaLinkedin className={socialLinksStyles.icon}/>
                 </li>
                 <li>
-                    <FaBeer className={socialLinksStyles.icon}/>
+                    <FaGithub className={socialLinksStyles.icon}/>
                 </li>
                 <li>
-                    <FaBeer className={socialLinksStyles.icon}/>
+                    <FaTwitter className={socialLinksStyles.icon}/>
                 </li>
                 <li>
-                    <FaBeer className={socialLinksStyles.icon}/>
+                    <FaYoutube className={socialLinksStyles.icon}/>
                 </li>
             </ul>
         </div>

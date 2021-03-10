@@ -1,5 +1,7 @@
 import React from "react";
 
+import SocialLinks from "./socialLinks";
+
 import * as aboutStyles from "../styles/about.module.scss";
 
 export default function about() {
@@ -22,6 +24,7 @@ export default function about() {
 						nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et magnis dis
 						parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
 					</p>
+					<SocialLinks />
 				</div>
 				<div className={aboutStyles.section}>
 					<h3>
