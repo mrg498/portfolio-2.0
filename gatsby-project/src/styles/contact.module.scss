@@ -37,19 +37,24 @@
 		align-items: flex-start;
 		width: 300px;
 		margin: 0;
-		margin-bottom: 16px;
+        margin-bottom: 16px;
+        
 		label {
             width: 100%;
             font-family: $font-body;
+            font-size: clamp(12px, 2vw, 24px);
 			.formText {
                 font-family: $font-body;
+                font-size: clamp(12px, 1.5vw, 20px);
                 margin-top: 8px;
+                padding: 4px 3px;
                 width: 100%;
                 border: none;
                 border-bottom: 2px solid $color2;
                 &:focus{
                     outline: none;
                     border-bottom: 2px solid $color1;
+                    padding: 4px 3px;
                 }
             }
 		}
@@ -58,14 +63,22 @@
             align-self: center;
             background-color: transparent;
             border: 2px solid $color1;
+            border-radius: 8px;
             color: $color1;
             outline: none;
             margin-top: 8px;
             margin-bottom: 70px;
             padding: 8px 16px;
+            cursor: pointer;
 
             font-family: $font-header;
             font-size: clamp(16px, 3vw, 32px);
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+            &:hover{
+                color: white;
+                background-color: $color1;
+            }
 		}
 	}
 }
@@ -82,7 +95,12 @@
 	.title {
 		padding-top: 200px;
 		padding-bottom: 32px;
-	}
+    }
+    .form{
+        .fieldWrapper{
+            width: 400px;
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)

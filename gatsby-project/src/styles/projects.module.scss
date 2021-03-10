@@ -67,10 +67,10 @@
 		padding: 8px;
 		border: 2px solid $color1;
 		margin: 4px;
-		border-radius: 10px;
+		border-radius: 8px;
 		background-color: white;
 		cursor: pointer;
-		transition: all 0.7s;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		&:hover {
 			background-color: $color1;
 			color: white;
