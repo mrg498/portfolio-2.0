@@ -15,7 +15,7 @@
 	color: $color1;
 	text-align: center;
 	span {
-		border-bottom: 2px solid rgb(200, 200, 200);
+		border-bottom: 2px solid $color2;
 	}
 	.subTitle {
 		font-size: clamp(16px, 2vw, 24px);
@@ -45,7 +45,7 @@
 			text-align: left;
 			font-size: clamp(20px, 3vw, 24px);
 			span {
-				border-bottom: 2px solid rgb(200, 200, 200);
+				border-bottom: 2px solid $color2;
 			}
 		}
 }

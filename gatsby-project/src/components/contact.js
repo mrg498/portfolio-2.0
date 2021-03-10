@@ -35,6 +35,7 @@ export default function Contact() {
 				<h5 className={contactStyles.subTitle}>For employment or projects!</h5>
 			</h2>
 			<form
+				className={contactStyles.form}
 				name="contact"
 				method="post"
 				action="thanks/"
@@ -49,28 +50,28 @@ export default function Contact() {
 						Don’t fill this out: <input name="bot-field" onChange={handleChange} />
 					</label>
 				</p>
-				<p>
+				<p className={contactStyles.fieldWrapper}>
 					<label>
 						Email
 						<br />
-						<input type="email" name="email" onChange={handleChange} />
+						<input className={contactStyles.formText} type="email" name="email" onChange={handleChange} />
 					</label>
 				</p>
-				<p>
+				<p className={contactStyles.fieldWrapper}>
 					<label>
 						Subject
 						<br />
-						<input type="text" name="subject" onChange={handleChange} />
+						<input className={contactStyles.formText} type="text" name="subject" onChange={handleChange} />
 					</label>
 				</p>
-				<p>
+				<p className={contactStyles.fieldWrapper}>
 					<label>
 						Message
 						<br />
-						<textarea name="message" onChange={handleChange} />
+						<textarea className={contactStyles.formText} name="message" onChange={handleChange} />
 					</label>
 				</p>
-				<p>
+				<p className={contactStyles.fieldWrapper}>
 					<button type="submit">Send</button>
 				</p>
 			</form>
