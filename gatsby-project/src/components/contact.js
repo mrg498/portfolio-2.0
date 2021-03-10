@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { navigate } from 'gatsby-link'
 import * as contactStyles from "../styles/contact.module.scss";
 
@@ -7,7 +7,7 @@ function encode(data) {
 }
 
 export default function Contact() {
-	const [ state, setState ] = React.useState({});
+	const [ state, setState ] = useState({});
 
 	const handleChange = (e) => {
 		setState({ ...state, [e.target.name]: e.target.value });
@@ -30,6 +30,10 @@ export default function Contact() {
 
 	return (
 		<div id="contact" className={contactStyles.container}>
+			<h2 className={contactStyles.title}>
+				<span>Contact</span>
+				<h5 className={contactStyles.subTitle}>For employment or projects!</h5>
+			</h2>
 			<form
 				name="contact"
 				method="post"
@@ -47,21 +51,21 @@ export default function Contact() {
 				</p>
 				<p>
 					<label>
-						Your name:
-						<br />
-						<input type="text" name="name" onChange={handleChange} />
-					</label>
-				</p>
-				<p>
-					<label>
-						Your email:
+						Email
 						<br />
 						<input type="email" name="email" onChange={handleChange} />
 					</label>
 				</p>
 				<p>
 					<label>
-						Message:
+						Subject
+						<br />
+						<input type="text" name="subject" onChange={handleChange} />
+					</label>
+				</p>
+				<p>
+					<label>
+						Message
 						<br />
 						<textarea name="message" onChange={handleChange} />
 					</label>

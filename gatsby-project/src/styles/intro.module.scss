@@ -43,8 +43,7 @@
 		font-family: $font-header;
 		line-height: 110%;
 		margin: 20px 0;
-		margin-bottom: 32px;
-		letter-spacing: 2px;
+		
 		opacity: 0;
 	}
 	p {
@@ -84,6 +83,12 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+	.textWrapper {
+		h1 {
+			letter-spacing: 2px;
+			margin-bottom: 32px;
+		}
+	}
 }
 
 // Large devices (desktops, 992px and up)
