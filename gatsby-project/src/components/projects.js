@@ -173,12 +173,10 @@ export default function projects() {
 						</div>
 						<div className={projectStyles.sectionWrapper}>
 							<div className={projectStyles.sectionGroup}>
-								<span className={projectStyles.skill}>node</span>
-								<span className={projectStyles.skill}>javascript</span>
-								<span className={projectStyles.skill}>express</span>
-								<span className={projectStyles.skill}>MongoDB</span>
-								<span className={projectStyles.skill}>jest</span>
-								<span className={projectStyles.skill}>html/css</span>
+								<span className={projectStyles.skill}>Swift</span>
+								<span className={projectStyles.skill}>Xcode</span>
+								<span className={projectStyles.skill}>iOS</span>
+								<span className={projectStyles.skill}>SpriteKit</span>
 							</div>
 						</div>
 					</div>

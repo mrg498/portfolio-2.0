@@ -12,16 +12,13 @@ export default function socialLinks() {
         <div className={socialLinksStyles.container}> 
             <ul className={socialLinksStyles.wrapper}>
                 <li>
-                    <FaLinkedin className={socialLinksStyles.icon}/>
+                    <a href="https://www.linkedin.com/in/miles-grossenbacher-908b171a3/"><FaLinkedin className={socialLinksStyles.icon}/></a>
                 </li>
                 <li>
-                    <FaGithub className={socialLinksStyles.icon}/>
+                    <a href="https://github.com/mrg498"><FaGithub className={socialLinksStyles.icon}/></a>
                 </li>
                 <li>
-                    <FaTwitter className={socialLinksStyles.icon}/>
-                </li>
-                <li>
-                    <FaYoutube className={socialLinksStyles.icon}/>
+                    <a href="https://twitter.com/sandymilesg"><FaTwitter className={socialLinksStyles.icon}/></a>
                 </li>
             </ul>
         </div>

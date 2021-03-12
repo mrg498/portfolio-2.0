@@ -13,16 +13,13 @@ export default function about() {
 			<div className={aboutStyles.wrapper}>
 				<div className={aboutStyles.section}>
 					<h3>
-						<span>Work Bio</span>
+						<span>Professional Bio</span>
 					</h3>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae. Ullamcorper
-						dignissim cras tincidunt lobortis feugiat. Quis auctor elit sed vulputate mi sit. Tincidunt
-						ornare massa eget egestas purus. In cursus turpis massa tincidunt dui. Tincidunt tortor aliquam
-						nulla facilisi cras fermentum. Volutpat blandit aliquam etiam erat velit scelerisque in. Non
-						nisi est sit amet. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Et magnis dis
-						parturient montes. Felis eget nunc lobortis mattis aliquam faucibus purus in.
+						I graduated from New York University in May of 2020 with degrees in Computer Science and Music
+						Technology. I’ve worked professionally as a developer for companies in both front end and back
+						end technologies, as well as designed and implemented websites and web apps for personal
+						clients. I love working on interesting projects and continuing to grow as a developer.
 					</p>
 					<SocialLinks />
 				</div>
@@ -47,7 +44,6 @@ export default function about() {
 							<span className={aboutStyles.skill}>graphql</span>
 							<span className={aboutStyles.skill}>MVC design pattern</span>
 							<span className={aboutStyles.skill}>python/flask</span>
-							
 						</div>
 						<div className={aboutStyles.skillGroup}>
 							<span className={aboutStyles.skill}>git/github</span>

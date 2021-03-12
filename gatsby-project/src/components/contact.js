@@ -68,7 +68,7 @@ export default function Contact() {
 					<label>
 						Message
 						<br />
-						<textarea className={contactStyles.formText} name="message" onChange={handleChange} rows="3"/>
+						<textarea className={contactStyles.formText} name="message" onChange={handleChange} rows="5"/>
 					</label>
 				</p>
 				<p className={contactStyles.fieldWrapper}>
