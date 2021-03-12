@@ -23,8 +23,9 @@
 
 .textWrapper {
 	color: white;
-	width: 60vw;
+	width: 80vw;
 	margin: 0 auto;
+	margin-top: -24px;
 	h1 {
 		font-size: clamp(24px, 7vw, 80px);
 		font-family: $font-header;
@@ -62,7 +63,7 @@
 }
 
 .iconWrapper {
-	margin-top: 40px;
+	margin-top: 56px;
 	display: flex;
 	justify-content: center;
 	.icon {
@@ -83,6 +84,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 	.textWrapper {
+		width: 60vh;
 		h1 {
 			letter-spacing: 2px;
 			margin-bottom: 32px;
@@ -93,6 +95,9 @@
 	}
 	.iconWrapper {
 		margin-top: 90px;
+	}
+	.textWrapper{
+		margin: 0 auto;
 	}
 }
 

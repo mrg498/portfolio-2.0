@@ -2,6 +2,8 @@ import React, { useState, useRef } from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
+import scrollTo from "gatsby-plugin-smoothscroll";
+
 import * as headerStyles from "../styles/header.module.scss";
 
 const Header = () => {
@@ -27,7 +29,7 @@ const Header = () => {
 	return (
 		<header className={`${headerStyles.container} fadeIn`} style={{ animationDelay: `1.7s` }}>
 			<nav>
-				<div className={headerStyles.iconWrapper}>
+				<div className={headerStyles.iconWrapper} onClick={() => scrollTo("#intro")}>
 					<StaticImage
 						src="../images/gatsby-icon.png"
 						alt="A dinosaur"
