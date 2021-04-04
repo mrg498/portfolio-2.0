@@ -33,7 +33,7 @@ export default function about() {
 							<span className={aboutStyles.skill}>javascript</span>
 							<span className={aboutStyles.skill}>react</span>
 							<span className={aboutStyles.skill}>jQuery</span>
-							<span className={aboutStyles.skill}>sass</span>
+							<span className={aboutStyles.skill}>scss</span>
 							<span className={aboutStyles.skill}>CRA/gatsby</span>
 						</div>
 						<div className={aboutStyles.skillGroup}>

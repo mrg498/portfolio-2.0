@@ -40,11 +40,7 @@ export default function experience() {
 							<span>Chandrika Tandon</span>
 						</h3>
 						<p>
-							I was hired by Miss Tandon’s personal team to work alongside another developer and implement
-							features for her personal website. I implemented the gallery and music sections, and handled
-							image optimizations, responsiveness for mobile, and transitioning the project from
-							create-react-app to gatsby. Each section is dynamic and designed to be used alongside a CMS.
-							Project currently ongoing.
+							I was hired by Ms. Tandon’s personal team to create her a new website. I now handle any updates needed for the site and other tech related needs.  
 						</p>
 					</div>
 					<div className={expStyles.post}>

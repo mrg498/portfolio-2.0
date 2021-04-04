@@ -17,8 +17,17 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)); /* Black background with opacity */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)); /* Black background with opacity */
 	z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+@keyframes bgColor{
+	from{
+		background-color: rgba(77, 77, 77, 0);
+	}
+	to{
+		background-color: rgba(77, 77, 77, 0.66);
+	}
 }
 
 .textWrapper {
@@ -26,6 +35,9 @@
 	width: 80vw;
 	margin: 0 auto;
 	margin-top: -24px;
+	padding: clamp(16px, 2vw, 32px);
+	background-color: rgba(52, 52, 52, 0);
+	animation: bgColor 1.5s ease-in-out 2s forwards;
 	h1 {
 		font-size: clamp(24px, 7vw, 80px);
 		font-family: $font-header;
@@ -43,6 +55,8 @@
 	}
 	button {
 		margin-top: 32px;
+		margin-left: 2px;
+		margin-right: 2px;
 		background: none;
 		color: inherit;
 		border: 1px solid white;
