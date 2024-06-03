@@ -1,91 +1,80 @@
 @import "fonts";
 
 .bgImage {
-	height: 100vh;
-	width: 100vw;
-	z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
 }
 
 .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute; /* Sit on top of the page content */
-	width: 100vw; /* Full width (cover the whole page) */
-	height: 100vh; /* Full height (cover the whole page) */
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)); /* Black background with opacity */
-	z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
-}
-
-@keyframes bgColor{
-	from{
-		background-color: rgba(77, 77, 77, 0);
-	}
-	to{
-		background-color: rgba(77, 77, 77, 0.66);
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full width (cover the whole page) */
+  height: 100dvh; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Specify a stack order in case you're using a different order for other elements */
 }
 
 .textWrapper {
-	color: white;
-	width: 80vw;
-	margin: 0 auto;
-	margin-top: -24px;
-	padding: clamp(16px, 2vw, 32px);
-	background-color: rgba(52, 52, 52, 0);
-	animation: bgColor 1.5s ease-in-out 2s forwards;
-	h1 {
-		font-size: clamp(24px, 7vw, 80px);
-		font-family: $font-header;
-		line-height: 110%;
-		margin: 20px 0;
-		letter-spacing: 1px;
-		opacity: 0;
-	}
-	p {
-		font-size: clamp(14px, 3vw, 24px);
-		font-family: $font-body;
-		margin-bottom: 0;
-		letter-spacing: 1px;
-		opacity: 0;
-	}
-	button {
-		margin-top: 32px;
-		margin-left: 2px;
-		margin-right: 2px;
-		background: none;
-		color: inherit;
-		border: 1px solid white;
-		border-radius: 5px;
-		padding: 0;
-		font: inherit;
-		cursor: pointer;
-		outline: inherit;
-		padding: 16px;
-		font-family: $font-body;
-		font-size: clamp(11px, 2vw, 16px);
-		opacity: 0;
-		transition: background-color 0.7s;
-		&:hover {
-			background-color: rgba(255, 255, 255, 0.208);
-		}
-	}
+  color: white;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: -24px;
+  padding: clamp(16px, 2vw, 32px);
+  background-color: rgba(52, 52, 52, 0);
+  animation: bgColor 1.5s ease-in-out 2s forwards;
+  h1 {
+    font-size: clamp(24px, 7vw, 80px);
+    font-family: $font-header;
+    line-height: 110%;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    opacity: 0;
+  }
+  p {
+    font-size: clamp(14px, 3vw, 24px);
+    font-family: $font-body;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    opacity: 0;
+  }
+  button {
+    margin-top: 32px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background: none;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    padding: 16px;
+    font-family: $font-body;
+    font-size: clamp(11px, 2vw, 16px);
+    opacity: 0;
+    transition: background-color 0.7s;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.208);
+    }
+  }
 }
 
 .iconWrapper {
-	margin-top: 56px;
-	display: flex;
-	justify-content: center;
-	.icon {
-		font-size: clamp(24px, 6vw, 40px);
-		color: white;
-		opacity: 0;
-		cursor: pointer;
-	}
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  .icon {
+    font-size: clamp(24px, 6vw, 40px);
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+  }
 }
 
 // X-Small devices (portrait phones, less than 576px)
@@ -97,29 +86,29 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-	.textWrapper {
-		width: 60vh;
-		h1 {
-			letter-spacing: 2px;
-			margin-bottom: 32px;
-		}
-		p {
-			letter-spacing: 2px;
-		}
-	}
-	.iconWrapper {
-		margin-top: 90px;
-	}
-	.textWrapper{
-		margin: 0 auto;
-	}
+  .textWrapper {
+    width: 60vh;
+    h1 {
+      letter-spacing: 2px;
+      margin-bottom: 32px;
+    }
+    p {
+      letter-spacing: 2px;
+    }
+  }
+  .iconWrapper {
+    margin-top: 90px;
+  }
+  .textWrapper {
+    margin: 0 auto;
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-	.textWrapper {
-		width: 50vw;
-	}
+  .textWrapper {
+    width: 50vw;
+  }
 }
 
 // X-Large devices (large desktops, 1200px and up)
