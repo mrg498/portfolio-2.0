@@ -16,12 +16,12 @@ export default function about() {
             <span>About</span>
           </h3>
           <p>
-            I graduated from New York University in May of 2020 with degrees in
-            Computer Science and Music Technology. I’ve worked professionally as
-            a developer for companies in both front end and back end
-            technologies, as well as designed and implemented websites and web
-            apps for personal clients. I love working on interesting projects
-            and continuing to grow as a developer.
+            I am a full-stack software engineer with years of experience
+            building and maintaining production-level software. Skilled in both
+            front-end and back-end development, I deliver scalable and
+            maintainable software solutions across the stack. I'm passionate
+            about writing code, architecting technical solutions, and
+            collaborating with teams to create innovative software.
           </p>
           <SocialLinks />
         </div>
@@ -31,26 +31,25 @@ export default function about() {
           </h3>
           <div className={aboutStyles.skillsWrapper}>
             <div className={aboutStyles.skillGroup}>
-              <span className={aboutStyles.skill}>html5/css3</span>
-              <span className={aboutStyles.skill}>javascript</span>
-              <span className={aboutStyles.skill}>react</span>
-              <span className={aboutStyles.skill}>jQuery</span>
-              <span className={aboutStyles.skill}>scss</span>
-              <span className={aboutStyles.skill}>CRA/gatsby</span>
+              <span className={aboutStyles.skill}>Typescript/Javascript</span>
+              <span className={aboutStyles.skill}>React</span>
+              <span className={aboutStyles.skill}>Next.js</span>
+              <span className={aboutStyles.skill}>Tailwind</span>
+              <span className={aboutStyles.skill}>React Query</span>
+              <span className={aboutStyles.skill}>State Management</span>
             </div>
             <div className={aboutStyles.skillGroup}>
-              <span className={aboutStyles.skill}>node/express</span>
-              <span className={aboutStyles.skill}>MySQL</span>
-              <span className={aboutStyles.skill}>MongoDB</span>
-              <span className={aboutStyles.skill}>REST API</span>
-              <span className={aboutStyles.skill}>graphql</span>
-              <span className={aboutStyles.skill}>MVC design pattern</span>
-              <span className={aboutStyles.skill}>python/flask</span>
+              <span className={aboutStyles.skill}>Node/Express/Nest.js</span>
+              <span className={aboutStyles.skill}>Python/Flask/Django</span>
+              <span className={aboutStyles.skill}>MySQL/PostgreSQL</span>
+              <span className={aboutStyles.skill}>REST/GraphQL</span>
             </div>
             <div className={aboutStyles.skillGroup}>
-              <span className={aboutStyles.skill}>git/github</span>
-              <span className={aboutStyles.skill}>java/c++/swift</span>
-              <span className={aboutStyles.skill}>VS Code</span>
+              <span className={aboutStyles.skill}>AWS</span>
+              <span className={aboutStyles.skill}>Docker/Kubernetes</span>
+              <span className={aboutStyles.skill}>New Relic</span>
+              <span className={aboutStyles.skill}>CI/CD</span>
+              <span className={aboutStyles.skill}>Github</span>
             </div>
           </div>
         </div>
