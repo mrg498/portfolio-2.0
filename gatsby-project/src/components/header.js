@@ -44,15 +44,6 @@ const Header = () => {
         <div className={headerStyles.desktop}>
           <ul className={`${headerStyles.largeLinks}`}>
             <li className={headerStyles.largeLink}>
-              <Link to="/">Home</Link>
-            </li>
-            <li className={headerStyles.largeLink}>
-              <Link to="/#about">About</Link>
-            </li>
-            <li className={headerStyles.largeLink}>
-              <Link to="/#experience">Experience</Link>
-            </li>
-            <li className={headerStyles.largeLink}>
               <Link to="/#projects">Projects</Link>
             </li>
             <li className={headerStyles.largeLink}>
@@ -84,12 +75,6 @@ const Header = () => {
         }}
       >
         <ul className={`${headerStyles.smallLinks}`}>
-          <li className={headerStyles.smallLink}>
-            <Link to="/#about">About</Link>
-          </li>
-          <li className={headerStyles.smallLink}>
-            <Link to="/#experience">Experience</Link>
-          </li>
           <li className={headerStyles.smallLink}>
             <Link to="/#projects">Projects</Link>
           </li>

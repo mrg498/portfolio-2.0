@@ -13,16 +13,10 @@ import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <div>
-      <About />
-    </div>
+    <SEO />
     <Fade bottom distance={"100px"}>
-      <Experience />
-    </Fade>
-    {/* <Fade bottom distance={"100px"}>
       <Projects />
-    </Fade> */}
+    </Fade>
     <Fade bottom distance={"100px"}>
       <Contact />
     </Fade>
