@@ -15,6 +15,9 @@ const IndexPage = () => (
   <Layout>
     <SEO />
     <Fade bottom distance={"100px"}>
+      <About />
+    </Fade>
+    <Fade bottom distance={"100px"}>
       <Projects />
     </Fade>
     <Fade bottom distance={"100px"}>

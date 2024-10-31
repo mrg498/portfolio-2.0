@@ -16,12 +16,12 @@ export default function about() {
             <span>About</span>
           </h3>
           <p>
-            I am a full-stack software engineer with years of experience
-            building and maintaining production-level software. Skilled in both
-            front-end and back-end development, I deliver scalable and
-            maintainable software solutions across the stack. I'm passionate
-            about writing code, architecting technical solutions, and
-            collaborating with teams to create innovative software.
+            I am a full-stack software engineer with experience building and
+            maintaining production-level software. Skilled in both front-end and
+            back-end development, I deliver scalable and maintainable software
+            across the stack. I'm passionate about writing code, architecting
+            technical solutions, and collaborating with teams to create
+            innovative products.
           </p>
           <SocialLinks />
         </div>
@@ -32,15 +32,11 @@ export default function about() {
           <div className={aboutStyles.skillsWrapper}>
             <div className={aboutStyles.skillGroup}>
               <span className={aboutStyles.skill}>Typescript/Javascript</span>
+              <span className={aboutStyles.skill}>Python</span>
               <span className={aboutStyles.skill}>React</span>
               <span className={aboutStyles.skill}>Next.js</span>
-              <span className={aboutStyles.skill}>Tailwind</span>
-              <span className={aboutStyles.skill}>React Query</span>
-              <span className={aboutStyles.skill}>State Management</span>
-            </div>
-            <div className={aboutStyles.skillGroup}>
+              <span className={aboutStyles.skill}>Flask/Django</span>
               <span className={aboutStyles.skill}>Node/Express/Nest.js</span>
-              <span className={aboutStyles.skill}>Python/Flask/Django</span>
               <span className={aboutStyles.skill}>MySQL/PostgreSQL</span>
               <span className={aboutStyles.skill}>REST/GraphQL</span>
             </div>

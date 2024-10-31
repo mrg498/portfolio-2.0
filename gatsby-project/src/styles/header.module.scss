@@ -77,17 +77,13 @@
   }
 
   .smallLinks {
-    font-size: clamp(16px, 3vw, 20px);
+    font-size: clamp(24px, 4vw, 32px);
   }
 
   .smallLink {
     margin: 20px 0;
   }
 
-  li:first-of-type {
-    margin: 0;
-    padding-top: 24px;
-  }
   li:last-of-type {
     margin: 0;
     padding-bottom: 24px;

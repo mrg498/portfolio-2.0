@@ -30,7 +30,7 @@ const Header = () => {
       <nav>
         <div
           className={headerStyles.iconWrapper}
-          onClick={() => scrollTo("#intro")}
+          onClick={() => scrollTo("#about")}
         >
           <StaticImage
             src="../images/gatsby-icon.png"

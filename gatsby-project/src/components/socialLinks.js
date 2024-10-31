@@ -15,9 +15,11 @@ export default function socialLinks() {
             <FaLinkedin className={socialLinksStyles.icon} />
           </a>
         </li>
-        {/* <li>
-                    <a href="https://github.com/mrg498"><FaGithub className={socialLinksStyles.icon}/></a>
-                </li> */}
+        <li>
+          <a href="https://github.com/mrg498">
+            <FaGithub className={socialLinksStyles.icon} />
+          </a>
+        </li>
         {/* <li>
                     <a href="https://twitter.com/sandymilesg"><FaTwitter className={socialLinksStyles.icon}/></a>
                 </li> */}
