@@ -13,11 +13,43 @@ export default function projects() {
         <div className={projectStyles.row}>
           <div className={projectStyles.post}>
             <h3>
+              <span>Rock Robot</span>
+            </h3>
+            <p>
+              A text based app that sends users daily local rock show
+              recommendations.
+            </p>
+            <div className={projectStyles.sectionWrapper}>
+              <div className={projectStyles.sectionGroup}>
+                <a
+                  href="https://rockrobotmusic.com/"
+                  className={projectStyles.btn}
+                  target="_blank" // Opens the link in a new tab
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+            <div className={projectStyles.sectionWrapper}>
+              <div className={projectStyles.sectionGroup}>
+                <span className={projectStyles.skill}>AWS</span>
+                <span className={projectStyles.skill}>Twilio</span>
+                <span className={projectStyles.skill}>Lambda functions</span>
+                <span className={projectStyles.skill}>DynamoDB</span>
+                <span className={projectStyles.skill}>API Gateway</span>
+                <span className={projectStyles.skill}>Event Bridge</span>
+              </div>
+            </div>
+          </div>
+          <div className={projectStyles.post}>
+            <h3>
               <span>Union Webclip</span>
             </h3>
             <p>
               web version of the Union mobile platform. Handles thousands of
-              transactions everyday.
+              transactions everyday. It is intended to be used on a mobile
+              device.
             </p>
             <div className={projectStyles.sectionWrapper}>
               <div className={projectStyles.sectionGroup}>
@@ -39,6 +71,8 @@ export default function projects() {
               </div>
             </div>
           </div>
+        </div>
+        <div className={projectStyles.row}>
           <div className={projectStyles.post}>
             <h3>
               <span>Chandrika Tandon Website</span>
@@ -63,12 +97,9 @@ export default function projects() {
                 <span className={projectStyles.skill}>react</span>
                 <span className={projectStyles.skill}>gatsby</span>
                 <span className={projectStyles.skill}>scss</span>
-                <span className={projectStyles.skill}>react hooks</span>
               </div>
             </div>
           </div>
-        </div>
-        <div className={projectStyles.row}>
           <div className={projectStyles.post}>
             <h3>
               <span>Analog Collective Web App</span>
@@ -91,38 +122,9 @@ export default function projects() {
             </div>
             <div className={projectStyles.sectionWrapper}>
               <div className={projectStyles.sectionGroup}>
-                <span className={projectStyles.skill}>html5/css3</span>
-                <span className={projectStyles.skill}>js/jQuery</span>
                 <span className={projectStyles.skill}>python/flask</span>
+                <span className={projectStyles.skill}>jQuery</span>
                 <span className={projectStyles.skill}>MySQL</span>
-                <span className={projectStyles.skill}>Linux/Ubuntu/nginx</span>
-              </div>
-            </div>
-          </div>
-          <div className={projectStyles.post}>
-            <h3>
-              <span>Splash Kid</span>
-            </h3>
-            <p>
-              Splash Kid is a children’s video game for iOS. Developed for my
-              iOS programming course at NYU.
-            </p>
-            <div className={projectStyles.sectionWrapper}>
-              <div className={projectStyles.sectionGroup}>
-                <a
-                  href="https://www.youtube.com/watch?v=9wwwd5udPZE&t"
-                  className={projectStyles.btn}
-                >
-                  Demo
-                </a>
-              </div>
-            </div>
-            <div className={projectStyles.sectionWrapper}>
-              <div className={projectStyles.sectionGroup}>
-                <span className={projectStyles.skill}>Swift</span>
-                <span className={projectStyles.skill}>Xcode</span>
-                <span className={projectStyles.skill}>iOS</span>
-                <span className={projectStyles.skill}>SpriteKit</span>
               </div>
             </div>
           </div>
